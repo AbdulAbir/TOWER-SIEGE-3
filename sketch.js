@@ -169,7 +169,7 @@ function keyPressed()
 
 async function getTime()
 {
-    var response= await fetch("http://worldtimeapi.org/api/timezone/Asia/Tokyo")
+    var response= await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
     var responseJSON = await response.json();
 
     var datetime = responseJSON.datetime;
